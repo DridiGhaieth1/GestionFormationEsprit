@@ -93,7 +93,7 @@ public class Formateur implements Serializable{
 	@Override
 	public String toString() {
 		return "Formateur [id=" + id + ", nom=" + nom + ", prenom=" + prenom + ", poste=" + poste + ", contrat="
-				+ contrat + ", email=" + email + ", password=" + password + ", sessions=" + sessions + "]";
+				+ contrat + ", email=" + email + ", password=" + password +  "]";
 	}
 	
 	public Formateur(Long id, String nom, String prenom, Poste poste, Contrat contrat, String email, String password) {
